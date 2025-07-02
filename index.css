@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 375px;
+    height: 655px;
+    margin: 25px auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.top-div {
+    width:375px;
+    height: 67px;
+    border-bottom: 1px solid #c6c6c6;
+    margin: auto;
+    display:flex;
+    margin-top:5px;
+}
+.oldagram{
+    height: 33.02px;
+    width: 127px;
+    margin-top: 18px;
+    margin-right: 233px;
+    margin-bottom: 17.98px;
+    margin-left: 15px;
+    
+}
+
+.avatar-top{
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 17px;
+    border-style: none;
+    height: 34px;
+    width: 34px;
+}
+
+.art-info{
+    font-family: "Source Sans 3", sans-serif;
+    width:375px;
+    height: 56px;
+    margin: 0px auto;
+    display:flex;
+
+}
+.avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.more-info{
+    width:307px;
+    margin-left: 7px;
+}
+
+.name{
+    font-size: 13px;
+    width:307px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.location{
+    font-size: 12px;
+    width:307px;
+    margin-top: 0px;
+}
+.artist-photo,#post{
+    width: 375px;
+    height: 375px;
+    margin:0 auto;
+
+}
+.icons{
+    width: 346px;
+    height: 88px;
+    margin: 21px 19px 16px ;
+    margin-bottom: 11.87px;
+
+}
+
+.hicon,.micon,.sicon{
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+}
+
+.hicon:hover,.micon:hover,.sicon:hover{
+    width: 35px;
+    height: 35px;
+}
+
+
+#likess,#comments{
+    width: 346px;
+    height: 16px;
+    margin-top: 1.87px;
+    margin-bottom: 0px;
+    font-family: "Source Sans 3", sans-serif;
+    color:#000000;
+    font-size: 13px;
+    
+}
+ 
+#likess,#username,#comment{
+    font-weight: bold;
+    font-size: 13px;
+    width: 346px;
+    height: 16px;
+    
+        
+}
+#change{
+    border-radius: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    border-style:solid;
+    margin-left: 5px;
+    margin-top: 0px;
+    background-color: bisque;
+    font-weight: 500;
+   
+}
